@@ -41,6 +41,12 @@ header nav ul li a:hover{
   box-shadow: 0 8px 6px rgba(0, 0, 0, .5);
 }
 
+header nav ul li a:active{
+  border: 1px solid black;
+  background-color: lightgray;
+  box-shadow: none;
+}
+
 section{
   height: 100vh;
   display: flex;
