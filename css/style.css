@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
 section{
   height: 100vh;
   display: flex;
@@ -11,14 +15,27 @@ section{
   align-items: center;
 }
 
+section h2{
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+}
+
+section img{
+  width: 100%;
+}
+
 #shoes1{
   background-color: red;
+  color: yellow;
 }
 
 #shoes2{
   background-color: green;
+  color: yellow;
 }
 
 #shoes3{
   background-color: yellow;
+  color: green;
 }
